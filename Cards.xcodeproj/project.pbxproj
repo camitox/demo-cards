@@ -12,8 +12,6 @@
 		35366E201BBC68BA00C20D7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35366E1E1BBC68BA00C20D7C /* Main.storyboard */; };
 		35366E221BBC68BA00C20D7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35366E211BBC68BA00C20D7C /* Assets.xcassets */; };
 		35366E251BBC68BA00C20D7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35366E231BBC68BA00C20D7C /* LaunchScreen.storyboard */; };
-		35366E301BBC68BA00C20D7C /* CardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35366E2F1BBC68BA00C20D7C /* CardsTests.swift */; };
-		35366E3B1BBC68BA00C20D7C /* CardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35366E3A1BBC68BA00C20D7C /* CardsUITests.swift */; };
 		35366E491BBC68E500C20D7C /* CardsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35366E481BBC68E500C20D7C /* CardsLayout.swift */; settings = {ASSET_TAGS = (); }; };
 		353965AD1BD890DA007179E4 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 353965871BD890DA007179E4 /* 0.png */; settings = {ASSET_TAGS = (); }; };
 		353965AE1BD890DA007179E4 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 353965881BD890DA007179E4 /* 1.png */; settings = {ASSET_TAGS = (); }; };
@@ -56,23 +54,6 @@
 		353965D51BD89260007179E4 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353965D41BD89260007179E4 /* CardCell.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		35366E2C1BBC68BA00C20D7C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 35366E0F1BBC68BA00C20D7C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 35366E161BBC68BA00C20D7C;
-			remoteInfo = Cards;
-		};
-		35366E371BBC68BA00C20D7C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 35366E0F1BBC68BA00C20D7C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 35366E161BBC68BA00C20D7C;
-			remoteInfo = Cards;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		35366E171BBC68BA00C20D7C /* Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35366E1A1BBC68BA00C20D7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,12 +62,6 @@
 		35366E211BBC68BA00C20D7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35366E241BBC68BA00C20D7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35366E261BBC68BA00C20D7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		35366E2B1BBC68BA00C20D7C /* CardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		35366E2F1BBC68BA00C20D7C /* CardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsTests.swift; sourceTree = "<group>"; };
-		35366E311BBC68BA00C20D7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		35366E361BBC68BA00C20D7C /* CardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		35366E3A1BBC68BA00C20D7C /* CardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsUITests.swift; sourceTree = "<group>"; };
-		35366E3C1BBC68BA00C20D7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35366E481BBC68E500C20D7C /* CardsLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsLayout.swift; sourceTree = "<group>"; };
 		353965871BD890DA007179E4 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
 		353965881BD890DA007179E4 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
@@ -137,20 +112,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35366E281BBC68BA00C20D7C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		35366E331BBC68BA00C20D7C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -158,8 +119,6 @@
 			isa = PBXGroup;
 			children = (
 				35366E191BBC68BA00C20D7C /* Cards */,
-				35366E2E1BBC68BA00C20D7C /* CardsTests */,
-				35366E391BBC68BA00C20D7C /* CardsUITests */,
 				35366E181BBC68BA00C20D7C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -168,8 +127,6 @@
 			isa = PBXGroup;
 			children = (
 				35366E171BBC68BA00C20D7C /* Cards.app */,
-				35366E2B1BBC68BA00C20D7C /* CardsTests.xctest */,
-				35366E361BBC68BA00C20D7C /* CardsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -188,24 +145,6 @@
 				35366E261BBC68BA00C20D7C /* Info.plist */,
 			);
 			path = Cards;
-			sourceTree = "<group>";
-		};
-		35366E2E1BBC68BA00C20D7C /* CardsTests */ = {
-			isa = PBXGroup;
-			children = (
-				35366E2F1BBC68BA00C20D7C /* CardsTests.swift */,
-				35366E311BBC68BA00C20D7C /* Info.plist */,
-			);
-			path = CardsTests;
-			sourceTree = "<group>";
-		};
-		35366E391BBC68BA00C20D7C /* CardsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				35366E3A1BBC68BA00C20D7C /* CardsUITests.swift */,
-				35366E3C1BBC68BA00C20D7C /* Info.plist */,
-			);
-			path = CardsUITests;
 			sourceTree = "<group>";
 		};
 		353965D31BD890DE007179E4 /* images */ = {
@@ -273,42 +212,6 @@
 			productReference = 35366E171BBC68BA00C20D7C /* Cards.app */;
 			productType = "com.apple.product-type.application";
 		};
-		35366E2A1BBC68BA00C20D7C /* CardsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 35366E421BBC68BA00C20D7C /* Build configuration list for PBXNativeTarget "CardsTests" */;
-			buildPhases = (
-				35366E271BBC68BA00C20D7C /* Sources */,
-				35366E281BBC68BA00C20D7C /* Frameworks */,
-				35366E291BBC68BA00C20D7C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				35366E2D1BBC68BA00C20D7C /* PBXTargetDependency */,
-			);
-			name = CardsTests;
-			productName = CardsTests;
-			productReference = 35366E2B1BBC68BA00C20D7C /* CardsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		35366E351BBC68BA00C20D7C /* CardsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 35366E451BBC68BA00C20D7C /* Build configuration list for PBXNativeTarget "CardsUITests" */;
-			buildPhases = (
-				35366E321BBC68BA00C20D7C /* Sources */,
-				35366E331BBC68BA00C20D7C /* Frameworks */,
-				35366E341BBC68BA00C20D7C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				35366E381BBC68BA00C20D7C /* PBXTargetDependency */,
-			);
-			name = CardsUITests;
-			productName = CardsUITests;
-			productReference = 35366E361BBC68BA00C20D7C /* CardsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -320,14 +223,6 @@
 				TargetAttributes = {
 					35366E161BBC68BA00C20D7C = {
 						CreatedOnToolsVersion = 7.0;
-					};
-					35366E2A1BBC68BA00C20D7C = {
-						CreatedOnToolsVersion = 7.0;
-						TestTargetID = 35366E161BBC68BA00C20D7C;
-					};
-					35366E351BBC68BA00C20D7C = {
-						CreatedOnToolsVersion = 7.0;
-						TestTargetID = 35366E161BBC68BA00C20D7C;
 					};
 				};
 			};
@@ -345,8 +240,6 @@
 			projectRoot = "";
 			targets = (
 				35366E161BBC68BA00C20D7C /* Cards */,
-				35366E2A1BBC68BA00C20D7C /* CardsTests */,
-				35366E351BBC68BA00C20D7C /* CardsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -400,20 +293,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35366E291BBC68BA00C20D7C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		35366E341BBC68BA00C20D7C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -428,36 +307,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35366E271BBC68BA00C20D7C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				35366E301BBC68BA00C20D7C /* CardsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		35366E321BBC68BA00C20D7C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				35366E3B1BBC68BA00C20D7C /* CardsUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		35366E2D1BBC68BA00C20D7C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 35366E161BBC68BA00C20D7C /* Cards */;
-			targetProxy = 35366E2C1BBC68BA00C20D7C /* PBXContainerItemProxy */;
-		};
-		35366E381BBC68BA00C20D7C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 35366E161BBC68BA00C20D7C /* Cards */;
-			targetProxy = 35366E371BBC68BA00C20D7C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		35366E1E1BBC68BA00C20D7C /* Main.storyboard */ = {
@@ -582,54 +432,6 @@
 			};
 			name = Release;
 		};
-		35366E431BBC68BA00C20D7C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = CardsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = im.camo.CardsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cards.app/Cards";
-			};
-			name = Debug;
-		};
-		35366E441BBC68BA00C20D7C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = CardsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = im.camo.CardsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cards.app/Cards";
-			};
-			name = Release;
-		};
-		35366E461BBC68BA00C20D7C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = CardsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = im.camo.CardsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Cards;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		35366E471BBC68BA00C20D7C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = CardsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = im.camo.CardsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Cards;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -647,24 +449,6 @@
 			buildConfigurations = (
 				35366E401BBC68BA00C20D7C /* Debug */,
 				35366E411BBC68BA00C20D7C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		35366E421BBC68BA00C20D7C /* Build configuration list for PBXNativeTarget "CardsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				35366E431BBC68BA00C20D7C /* Debug */,
-				35366E441BBC68BA00C20D7C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		35366E451BBC68BA00C20D7C /* Build configuration list for PBXNativeTarget "CardsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				35366E461BBC68BA00C20D7C /* Debug */,
-				35366E471BBC68BA00C20D7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
